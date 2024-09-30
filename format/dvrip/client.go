@@ -12,9 +12,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/deepch/vdk/av"
-	"github.com/deepch/vdk/codec"
-	"github.com/deepch/vdk/codec/h264parser"
+	"github.com/sogoquick/vdk/av"
+	"github.com/sogoquick/vdk/codec"
+	"github.com/sogoquick/vdk/codec/h264parser"
 )
 
 const (

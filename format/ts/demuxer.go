@@ -6,12 +6,12 @@ import (
 	"io"
 	"time"
 
-	"github.com/deepch/vdk/av"
-	"github.com/deepch/vdk/codec/aacparser"
-	"github.com/deepch/vdk/codec/h264parser"
-	"github.com/deepch/vdk/codec/mjpeg"
-	"github.com/deepch/vdk/format/ts/tsio"
-	"github.com/deepch/vdk/utils/bits/pio"
+	"github.com/sogoquick/vdk/av"
+	"github.com/sogoquick/vdk/codec/aacparser"
+	"github.com/sogoquick/vdk/codec/h264parser"
+	"github.com/sogoquick/vdk/codec/mjpeg"
+	"github.com/sogoquick/vdk/format/ts/tsio"
+	"github.com/sogoquick/vdk/utils/bits/pio"
 )
 
 type Demuxer struct {
