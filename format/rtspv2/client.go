@@ -611,6 +611,9 @@ func (client *RTSPClient) RTPDemuxer(payloadRAW *[]byte) ([]*av.Packet, bool) {
 			client.BufferRtpPacket.Truncate(0)
 			client.BufferRtpPacket.Reset()
 		}
+                if offset >= len(content) || end > len(content) || offset > end {
+                        return nil, false
+                }
 		nalRaw, _ := h264parser.SplitNALUs(content[offset:end])
 		if len(nalRaw) == 0 || len(nalRaw[0]) == 0 {
 			return nil, false
