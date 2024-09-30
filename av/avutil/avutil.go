@@ -9,9 +9,9 @@ import (
 	"path"
 	"strings"
 
-	"github.com/deepch/vdk/av"
-	"github.com/deepch/vdk/codec/aacparser"
-	"github.com/deepch/vdk/codec/h264parser"
+	"github.com/sogoquick/vdk/av"
+	"github.com/sogoquick/vdk/codec/aacparser"
+	"github.com/sogoquick/vdk/codec/h264parser"
 )
 
 type HandlerDemuxer struct {
